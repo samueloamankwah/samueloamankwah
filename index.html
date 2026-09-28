@@ -1,160 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Personal profile landing page built from the GitHub README prompt ideas."
-    />
-    <title>Samuel O. | Portfolio</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <div class="background-blur blur-one"></div>
-    <div class="background-blur blur-two"></div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samuel O. Amankwah | Portfolio & CV</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
-    <header class="site-header">
-      <nav class="container nav">
-        <a href="#top" class="brand">Samuel<span>.</span></a>
-        <div class="nav-links">
-          <a href="#about">About</a>
-          <a href="#projects">Projects</a>
-          <a href="#contact">Contact</a>
-        </div>
-      </nav>
+    <!-- Header Navigation -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">Samuel O. Amankwah</div>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#cv">CV / Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <main id="top">
-      <section class="hero container">
-        <div class="hero-copy">
-          <p class="eyebrow">Hi there 👋</p>
-          <h1>I build thoughtful digital experiences.</h1>
-          <p class="subtitle">
-            I’m a developer who enjoys turning ideas into useful, polished products.
-            I care about clean code, good UX, and learning every day.
-          </p>
-          <div class="cta-row">
-            <a class="button primary" href="#contact">Let’s connect</a>
-            <a class="button secondary" href="#projects">See my work</a>
-          </div>
-          <ul class="mini-stats" aria-label="Highlights">
-            <li><strong>2+</strong> years building</li>
-            <li><strong>10+</strong> projects shipped</li>
-            <li><strong>∞</strong> ideas to explore</li>
-          </ul>
+    <!-- Hero / Intro Section -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1>Hello, I'm <span class="highlight">Samuel O. Amankwah</span></h1>
+            <p>Welcome to my professional portfolio and curriculum vitae.</p>
+            <a href="#cv" class="btn">View My CV</a>
+            <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>
+            I am a passionate professional dedicated to problem-solving, continuous learning, and creating impact. 
+            Welcome to my personal site, where I highlight my background, experience, skills, and current work.
+        </p>
+    </section>
+
+    <!-- CV / Experience Section -->
+    <section id="cv" class="section section-alt">
+        <h2>Curriculum Vitae</h2>
+
+        <div class="cv-item">
+            <h3>Education</h3>
+            <div class="entry">
+                <h4>Degree Name / Field of Study</h4>
+                <p class="meta">University or Institution Name | Year - Year</p>
+                <p>Key highlights, coursework, or achievements during your program.</p>
+            </div>
         </div>
 
-        <div class="hero-card" aria-label="Profile card">
-          <div class="avatar">SO</div>
-          <h2>Samuel O.</h2>
-          <p>Frontend builder • problem solver • curious learner</p>
-          <div class="chip-row">
-            <span>React</span>
-            <span>TypeScript</span>
-            <span>UI/UX</span>
-          </div>
+        <div class="cv-item">
+            <h3>Experience</h3>
+            <div class="entry">
+                <h4>Job Title / Role</h4>
+                <p class="meta">Company or Organization | Year - Present</p>
+                <ul>
+                    <li>Main responsibility or key achievement in this position.</li>
+                    <li>Another impactful project, initiative, or role highlight.</li>
+                </ul>
+            </div>
         </div>
-      </section>
+    </section>
 
-      <section id="about" class="container section">
-        <div class="section-heading">
-          <p class="eyebrow">About</p>
-          <h2>What I’m about</h2>
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <h2>Skills & Expertise</h2>
+        <div class="skills-grid">
+            <div class="skill-card">Technical Writing</div>
+            <div class="skill-card">Project Management</div>
+            <div class="skill-card">Research & Analysis</div>
+            <div class="skill-card">Web Development</div>
+            <div class="skill-card">Communication</div>
+            <div class="skill-card">Problem Solving</div>
         </div>
-        <div class="info-grid">
-          <article class="info-card">
-            <h3>Currently working on</h3>
-            <p>
-              Building modern interfaces, experimenting with product ideas, and creating
-              experiences that feel fast, thoughtful, and intuitive.
-            </p>
-          </article>
-          <article class="info-card">
-            <h3>Currently learning</h3>
-            <p>
-              I’m expanding my skills in frontend architecture, accessibility, and
-              design systems to create cleaner and more scalable products.
-            </p>
-          </article>
-          <article class="info-card">
-            <h3>Looking to collaborate</h3>
-            <p>
-              I’m open to partnerships on side projects, creative prototypes, and
-              community-driven work that makes an impact.
-            </p>
-          </article>
-          <article class="info-card">
-            <h3>Looking for help with</h3>
-            <p>
-              I enjoy feedback on product direction, UX decisions, and technical execution,
-              especially around performance and clarity.
-            </p>
-          </article>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section section-alt">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out for collaborations, inquiries, or networking!</p>
+        <div class="contact-info">
+            <p><strong>Email:</strong> <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+            <p><strong>LinkedIn:</strong> <a href="https://linkedin.com" target="_blank">linkedin.com/in/yourprofile</a></p>
+            <p><strong>GitHub:</strong> <a href="https://github.com/samueloamankwah" target="_blank">github.com/samueloamankwah</a></p>
         </div>
-      </section>
+    </section>
 
-      <section id="projects" class="container section">
-        <div class="section-heading">
-          <p class="eyebrow">Highlights</p>
-          <h2>Ideas and interests</h2>
-        </div>
-
-        <div class="project-grid">
-          <article class="project-card">
-            <span class="tag">Ask me about</span>
-            <h3>Product thinking</h3>
-            <p>
-              I love discussing how good UX, strong user feedback, and clear execution
-              shape meaningful digital products.
-            </p>
-          </article>
-
-          <article class="project-card">
-            <span class="tag">Reach me</span>
-            <h3>Let’s talk</h3>
-            <p>
-              Whether it’s a collaboration, a new idea, or a quick conversation, I’m open
-              to connecting and hearing what you’re building.
-            </p>
-          </article>
-
-          <article class="project-card">
-            <span class="tag">Pronouns</span>
-            <h3>He/Him</h3>
-            <p>
-              I’m happy to connect with people who value respectful, inclusive, and open
-              collaboration.
-            </p>
-          </article>
-
-          <article class="project-card">
-            <span class="tag">Fun fact</span>
-            <h3>Curiosity first</h3>
-            <p>
-              A lot of my best ideas come from experimenting, asking questions, and trying
-              things before they’re “perfect.”
-            </p>
-          </article>
-        </div>
-      </section>
-    </main>
-
-    <footer id="contact" class="site-footer">
-      <div class="container footer-inner">
-        <div>
-          <p class="eyebrow">Contact</p>
-          <h2>Let’s build something useful.</h2>
-        </div>
-        <div class="footer-links">
-          <a href="mailto:hello@example.com">hello@example.com</a>
-          <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
-          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
-        </div>
-      </div>
-      <p class="copyright">© <span id="year"></span> Samuel O.</p>
+    <footer>
+        <p>&copy; 2026 Samuel O. Amankwah. All rights reserved.</p>
     </footer>
 
     <script src="script.js"></script>
-  </body>
+</body>
 </html>
